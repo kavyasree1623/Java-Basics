@@ -1,0 +1,10 @@
+Java-Basics/
+├── README.md
+├── Loops/
+│   ├── PrintNumbers.java
+│   ├── SumOfN.java
+│   └── StarPattern.java
+├── Conditional-Statements/
+│   └── EvenOdd.java
+└── Variables-And-DataTypes/
+    └── Variables.java
