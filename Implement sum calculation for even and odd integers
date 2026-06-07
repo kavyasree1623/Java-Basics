@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class javaBasics {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        int number;
+        int choice;
+        int evensum = 0;
+        int oddsum = 0;
+
+        do {
+            System.out.print(" enter a number: ");
+            number = scanner.nextInt();
+             if ( number % 2 == 0){
+                evensum += number;
+             } else {
+                oddsum += number;
+             }
+            System.out.println(" do you want to continue? (1 for yes, 0 for no): ");
+            choice = scanner.nextInt();
+        } while (choice == 1);
+        System.out.println(" sum of even numbers: " + evensum);
+        System.out.println(" sum of odd numbers: " + oddsum);
+        }
+}
