@@ -9,4 +9,4 @@ public class javaBasics {
             System.out.println();
         }
     }
-}  
+}
